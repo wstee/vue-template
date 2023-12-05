@@ -2,7 +2,7 @@
 
 ## vue3 大屏项目 echarts基础模板
 
-vue3 + vite + ts + eslint + prettier + axios + sass + echarts
+vue3 + vite + ts + eslint + prettier + axios + sass + mock + echarts
 
 ## Project Setup
 
