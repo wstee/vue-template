@@ -1,12 +1,15 @@
 <template>
-  <section class="container">
-    <h1 class="title">{{ title }}</h1>
-    <main class="main">
-      <slot></slot>
-    </main>
-  </section>
+  <screen-adapter>
+    <section class="container">
+      <h1 class="title">{{ title }}</h1>
+      <main class="main">
+        <slot></slot>
+      </main>
+    </section>
+  </screen-adapter>
 </template>
 <script setup lang="ts">
+  import ScreenAdapter from '@/components/ScreenAdapter/ScreenAdapter.vue'
   const title = import.meta.env.VITE_TITLE
 </script>
 <style lang="scss" scoped>

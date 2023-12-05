@@ -1,8 +1,8 @@
-# vue-template
+# vue-big-screen-template
 
-## vue3基础项目模板
+## vue3 大屏项目 echarts基础模板
 
-vue3 + vite + ts + eslint + prettier + axios + sass
+vue3 + vite + ts + eslint + prettier + axios + sass + echarts
 
 ## Project Setup
 
