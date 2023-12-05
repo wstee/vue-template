@@ -2,7 +2,7 @@
 
 ## vue3基础项目模板
 
-vue3 + vite + ts + eslint + prettier + axios + sass
+vue3 + vite + ts + eslint + prettier + axios + sass + mock
 
 ## Project Setup
 
