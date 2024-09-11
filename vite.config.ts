@@ -6,7 +6,7 @@ import { viteMockServe } from 'vite-plugin-mock';
 // https://vitejs.dev/config/
 
 export default defineConfig(({ command, mode }) => ({
-  base: command === 'build' ? '/thirdLine' : '',
+  base: command === 'build' ? '/' : '',
   plugins: [
     vue(),
     viteMockServe({
@@ -26,7 +26,8 @@ export default defineConfig(({ command, mode }) => ({
       },
       output: {
         manualChunks: {
-          echarts: ['echarts'],
+          // 单独
+          // echarts: ['echarts'],
         },
       },
     },
